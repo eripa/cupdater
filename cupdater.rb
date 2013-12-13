@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 #
+# This is a simple script for running in cron (or similar) for checking and updating a subdomain
+# on the CloudFlare DNS service. A dynamic DNS updater for CloudFlare DNS.
 #
+# Author: Eric Ripa - eric@ripa.io (2013-12-13)
 
 require 'cloudflare'
 require 'open-uri'
