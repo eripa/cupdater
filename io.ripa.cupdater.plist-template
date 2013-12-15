@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>io.ripa.cupdater</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>[PATH_TO_RUBY]</string>
+        <string>[PATH_TO_cupdater.rb]</string>
+        <string>[CLOUDFLARE_TOKEN]</string>
+        <string>[CLOUDFLARE_EMAIL]</string>
+        <string>[SUBDOMAIN]</string>
+        <string>[DOMAIN]</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>1800</integer>
+    <key>StandardOutPath</key>
+    <string>[DESIRED_LOG_PATH]</string>
+    <key>StandardErrorPath</key>
+    <string>[DESIRED_LOG_PATH]</string>
+</dict>
+</plist>
