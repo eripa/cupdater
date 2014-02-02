@@ -6,6 +6,7 @@ A simple dynamic DNS updater for CloudFlare DNS. Run in cron (or similar), will 
 
  * CloudFlare gem: ```[sudo] gem install cloudflare```
  * Hope that akamai continues to provide their IP service http://whatismyip.akamai.com
+ * You will probably need to update the root certificates if you are on OS X. [Instructions](http://railsapps.github.io/openssl-certificate-verify-failed.html)
 
 ## How to use: ##
 
