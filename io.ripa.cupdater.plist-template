@@ -12,6 +12,7 @@
         <string>[CLOUDFLARE_EMAIL]</string>
         <string>[SUBDOMAIN]</string>
         <string>[DOMAIN]</string>
+        <!-- <string>-verbose</string> -->
     </array>
     <key>StartInterval</key>
     <integer>1800</integer>
